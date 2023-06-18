@@ -14,6 +14,9 @@
 ### Установка git на ваш ПК
 
 #### Первая настройка git
+Необходимо ввести команды:
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 
 ## Создание и базовая работа с локальным репозиторием.
 
@@ -38,6 +41,8 @@ $ git commit -m 'Initial project version'
 ### Базовая работа с локальным репозиторием
 
 ## Ветки. Локальная работа с ветками в git.
+ git branch _branch_Name_ - создает новую ветку
+ git checkout _branch_Name_  - прехрд на новую или уже созданную ветку
 
 ### Что такое ветки и для чего они нужны при работе с системой контроля версий.
 
